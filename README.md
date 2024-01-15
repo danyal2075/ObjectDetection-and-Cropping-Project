@@ -2,7 +2,7 @@
 This project focuses on performing object detection using a pretrained YOLOv5s model. Following the detection, the script detects object and crops the original image based on the model's outputs, isolating the predicted objects.
 
 # Test:
-For testing code, there should is a function named test(). When calling the test() function without specifying an image path, it will display an image both before and after cropping, along with the detection of an object. This implies selecting any image from the testing dataset.
+For testing code, there is a function named test(). When calling the test() function without specifying an image path, it will display an image both before and after cropping, along with the detection of an object. This implies selecting any image from the testing dataset.
 Terminal Command : python main.py --test True
 
 However, if an image path is provided when calling the test() function (like test("image_path")), it will display the original image, the image after cropping, and provide information such as the label and score for the detected object in the terminal.
